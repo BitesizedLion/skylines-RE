@@ -96,7 +96,7 @@ And outputting 4 files:
 
 **From this point on you need to have the necessary types from `ColossalManaged.dll` and `Assembly-CSharp.dll`**
 
-The latter 2 are the ones that matter, we'll focus on the `Save Game` type first, I'll refer to it as the "SaveGameMetaData" file.
+The latter 2 are the ones that matter, we'll focus on the `Save Game` type first.
 
 You can read it using a `BinaryReader`:
 - Boolean, can't recall what it's used for
