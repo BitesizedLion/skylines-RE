@@ -94,7 +94,7 @@ And outputting 4 files:
 * `{Main Asset Name}_Data` - Data
 * `{Main Asset Name}` - Save Game
 
-**from this point on you need to have the necessary types from ColossalManaged.dll and Assembly-CSharp.dll**
+**From this point on you need to have the necessary types from `ColossalManaged.dll` and `Assembly-CSharp.dll`**
 
 The latter 2 are the ones that matter, we'll focus on the `Save Game` type first, I'll refer to it as the "SaveGameMetaData" file.
 
@@ -133,7 +133,7 @@ This is not even close to being fully complete or accurate, I haven't even fully
 I have:
 - achievementsDisabled
 - assetRef - needs `{Main Asset Name}_Data`
-- assets (not complete! only ModInfo[])
+- assets (not complete! only `ModInfo[]`)
 - cash
 - cityName
 - environment
